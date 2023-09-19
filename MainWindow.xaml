@@ -1,0 +1,49 @@
+﻿<Window x:Class="Otopark_Otomasyonu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Otopark_Otomasyonu"
+        mc:Ignorable="d"
+        Title="Aksoy Otopark" Height="550" Width="800" Background="#1e272e">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="B6" HorizontalAlignment="Left" Margin="77,209,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="B5" HorizontalAlignment="Left" Margin="11,209,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="B7" HorizontalAlignment="Left" Margin="143,209,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button x:Name="btn1" Content="B4" HorizontalAlignment="Left" Margin="209,146,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E" Click="Button_Click"/>
+        <Button Content="B3" HorizontalAlignment="Left" Margin="143,146,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button x:Name="button" Content="B1" HorizontalAlignment="Left" Margin="11,146,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="B2" HorizontalAlignment="Left" Margin="77,146,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="C10" HorizontalAlignment="Left" Margin="716,371,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="A7" HorizontalAlignment="Left" Margin="650,146,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E" BorderBrush="#FF707070" BorderThickness="1,1,1,1"/>
+        <Button Content="B8" HorizontalAlignment="Left" Margin="209,209,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="C9" HorizontalAlignment="Left" Margin="650,371,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="C8" HorizontalAlignment="Left" Margin="584,371,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="C1" HorizontalAlignment="Left" Margin="452,308,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.167,0.615" Foreground="White" Background="#FF08972E"/>
+        <Button Content="C5" HorizontalAlignment="Left" Margin="716,308,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="C4" HorizontalAlignment="Left" Margin="650,308,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="C3" HorizontalAlignment="Left" Margin="584,308,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="C2" HorizontalAlignment="Left" Margin="518,308,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="C6" HorizontalAlignment="Left" Margin="452,371,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="C7" HorizontalAlignment="Left" Margin="518,371,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="A6" HorizontalAlignment="Left" Margin="584,146,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="A5" HorizontalAlignment="Left" Margin="518,146,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="A4" HorizontalAlignment="Left" Margin="716,83,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="A2" HorizontalAlignment="Left" Margin="584,83,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="A3" HorizontalAlignment="Left" Margin="650,83,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="A1" HorizontalAlignment="Left" Margin="518,83,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="D2" HorizontalAlignment="Left" Margin="77,374,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="A8" HorizontalAlignment="Left" Margin="716,146,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="D1" HorizontalAlignment="Left" Margin="11,374,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="D5" HorizontalAlignment="Left" Margin="11,437,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="D3" HorizontalAlignment="Left" Margin="143,374,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="D4" HorizontalAlignment="Left" Margin="209,374,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="D6" HorizontalAlignment="Left" Margin="77,437,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+        <Button Content="D7" HorizontalAlignment="Left" Margin="143,437,0,0" VerticalAlignment="Top" Height="58" Width="61" RenderTransformOrigin="0.526,0.557" Foreground="White" Background="#FF08972E"/>
+    </Grid>
+</Window>
